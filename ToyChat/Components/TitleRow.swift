@@ -30,7 +30,7 @@ struct TitleRow: View {
 					.font(.caption)
 					.foregroundColor(.gray)
 			}
-			.frame(maxWidth: .infinity)
+			.frame(maxWidth: .infinity, alignment: .leading)
 			
 			Image(systemName: "phone.fill")
 				.foregroundColor(.gray)
