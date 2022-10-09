@@ -19,6 +19,7 @@
 		5B2318D028F2D3D6006D8FF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B2318CF28F2D3D6006D8FF9 /* GoogleService-Info.plist */; };
 		5B2318D328F2D4E9006D8FF9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5B2318D228F2D4E9006D8FF9 /* FirebaseFirestore */; };
 		5B2318D528F2D4E9006D8FF9 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5B2318D428F2D4E9006D8FF9 /* FirebaseFirestoreSwift */; };
+		5B2318D728F2D7E4006D8FF9 /* MessagesManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2318D628F2D7E4006D8FF9 /* MessagesManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		5B2318CB28F29726006D8FF9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5B2318CD28F29C44006D8FF9 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 		5B2318CF28F2D3D6006D8FF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5B2318D628F2D7E4006D8FF9 /* MessagesManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				5B2318CF28F2D3D6006D8FF9 /* GoogleService-Info.plist */,
-				5B2318C628F290E1006D8FF9 /* Models */,
 				5B2318B528F28811006D8FF9 /* ToyChatApp.swift */,
 				5B2318B728F28811006D8FF9 /* ContentView.swift */,
+				5B2318D628F2D7E4006D8FF9 /* MessagesManger.swift */,
+				5B2318CB28F29726006D8FF9 /* Extensions.swift */,
 				5B2318C328F28B92006D8FF9 /* Components */,
+				5B2318C628F290E1006D8FF9 /* Models */,
 				5B2318B928F28813006D8FF9 /* Assets.xcassets */,
 				5B2318BB28F28813006D8FF9 /* Preview Content */,
-				5B2318CB28F29726006D8FF9 /* Extensions.swift */,
 			);
 			path = ToyChat;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2318B828F28811006D8FF9 /* ContentView.swift in Sources */,
+				5B2318D728F2D7E4006D8FF9 /* MessagesManger.swift in Sources */,
 				5B2318CC28F29726006D8FF9 /* Extensions.swift in Sources */,
 				5B2318C828F290FC006D8FF9 /* Message.swift in Sources */,
 				5B2318CE28F29C44006D8FF9 /* MessageField.swift in Sources */,
