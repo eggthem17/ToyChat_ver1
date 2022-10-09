@@ -11,6 +11,7 @@
 		5B2318B828F28811006D8FF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2318B728F28811006D8FF9 /* ContentView.swift */; };
 		5B2318BA28F28813006D8FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2318B928F28813006D8FF9 /* Assets.xcassets */; };
 		5B2318BD28F28813006D8FF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2318BC28F28813006D8FF9 /* Preview Assets.xcassets */; };
+		5B2318C528F28BAB006D8FF9 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2318C428F28BAB006D8FF9 /* TitleRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5B2318B728F28811006D8FF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B2318B928F28813006D8FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B2318BC28F28813006D8FF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B2318C428F28BAB006D8FF9 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				5B2318B528F28811006D8FF9 /* ToyChatApp.swift */,
+				5B2318C328F28B92006D8FF9 /* Components */,
 				5B2318B728F28811006D8FF9 /* ContentView.swift */,
 				5B2318B928F28813006D8FF9 /* Assets.xcassets */,
 				5B2318BB28F28813006D8FF9 /* Preview Content */,
@@ -65,6 +68,14 @@
 				5B2318BC28F28813006D8FF9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B2318C328F28B92006D8FF9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5B2318C428F28BAB006D8FF9 /* TitleRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				5B2318B828F28811006D8FF9 /* ContentView.swift in Sources */,
 				5B2318B628F28811006D8FF9 /* ToyChatApp.swift in Sources */,
+				5B2318C528F28BAB006D8FF9 /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
