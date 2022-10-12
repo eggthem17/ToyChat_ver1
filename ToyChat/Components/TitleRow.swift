@@ -17,7 +17,7 @@ struct TitleRow: View {
 				image.resizable()
 					.aspectRatio(contentMode: .fill)
 					.frame(width: 50, height: 50)
-					.cornerRadius(50)
+					.cornerRadius(25)
 			} placeholder: {
 				ProgressView()
 			}

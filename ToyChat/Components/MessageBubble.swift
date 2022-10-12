@@ -20,9 +20,6 @@ struct MessageBubble: View {
 					.cornerRadius(30)
 			}
 			.frame(maxWidth: 300, alignment: message.received ? .leading : .trailing)
-			.onTapGesture {
-				showTime.toggle()
-			}
 			
 			if showTime {
 				Text("\(message.timestamp.formatted(.dateTime.hour().minute()))")
@@ -34,11 +31,24 @@ struct MessageBubble: View {
 		.frame(maxWidth: .infinity, alignment: message.received ? .leading : .trailing)
 		.padding(message.received ? .leading : .trailing)
 		.padding(.horizontal, 10)
+		.onTapGesture {
+			
+		}
+		.gesture(
+			DragGesture(minimumDistance: 0)
+				.onChanged({ _ in
+					showTime = true
+				})
+				.onEnded({ _ in
+					showTime = false
+				})
+		)
     }
 }
 
 struct MessageBubble_Previews: PreviewProvider {
     static var previews: some View {
 		MessageBubble(message: Message(id: "3333", text: "Testing Message", received: true, timestamp: Date()))
+		MessageBubble(message: Message(id: "3333", text: "Testing Message", received: false, timestamp: Date()))
     }
 }
